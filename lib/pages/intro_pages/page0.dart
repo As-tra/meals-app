@@ -24,6 +24,7 @@ class _IntroPage0State extends State<IntroPage0> {
       home: Scaffold(
         body: Stack(
           children: [
+            
             PageView(
               onPageChanged: (value) {
                 if (value == 2) {
